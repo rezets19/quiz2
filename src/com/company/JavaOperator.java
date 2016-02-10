@@ -96,4 +96,10 @@ public class JavaOperator
 
         System.out.println(count);
     }
+
+    static void quiz20() {
+        String s1 = new String("Java");
+        String s2 = "Java";
+        System.out.println(s1 == s2);
+    }
 }

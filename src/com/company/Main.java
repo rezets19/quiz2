@@ -21,6 +21,8 @@ public class Main {
 
         System.out.println("11 - multiple overloading");
         System.out.println("14 - foreach");
+        System.out.println("16 - varargs method");
+        System.out.println("20 - equals() strings");
 
         Scanner scanner = new Scanner(System.in);
         int choice = scanner.nextInt();
@@ -55,6 +57,15 @@ public class Main {
                 break;
             case 14:
                 Quiz14.forEachTest();
+                break;
+            case 16:
+                Quiz16.vaTest(10, 20);
+                break;
+            case 17:
+                //Quiz17.method();
+                break;
+            case 20:
+                JavaOperator.quiz20();
                 break;
             default:
                 System.out.println("Finished");
