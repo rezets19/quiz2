@@ -23,6 +23,8 @@ public class Main {
         System.out.println("14 - foreach");
         System.out.println("16 - varargs method");
         System.out.println("20 - equals() strings");
+        System.out.println("22 - bools");
+        System.out.println("24 - post increment");
 
         Scanner scanner = new Scanner(System.in);
         int choice = scanner.nextInt();
@@ -66,6 +68,12 @@ public class Main {
                 break;
             case 20:
                 JavaOperator.quiz20();
+                break;
+            case 22:
+                JavaOperator.quiz22();
+                break;
+            case 24:
+                Quiz24.main(new String[0]);
                 break;
             default:
                 System.out.println("Finished");

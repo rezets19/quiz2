@@ -102,4 +102,10 @@ public class JavaOperator
         String s2 = "Java";
         System.out.println(s1 == s2);
     }
+
+    public static void quiz22() {
+        System.out.println(new Boolean("true"));
+        System.out.println(Boolean.valueOf("1"));
+        System.out.println(Boolean.valueOf(null));
+    }
 }
