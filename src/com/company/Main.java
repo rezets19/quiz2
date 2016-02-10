@@ -19,8 +19,8 @@ public class Main {
         System.out.println("7 - Test char");
         System.out.println("8 - Loop int");
 
-
         System.out.println("11 - multiple overloading");
+        System.out.println("14 - foreach");
 
         Scanner scanner = new Scanner(System.in);
         int choice = scanner.nextInt();
@@ -52,6 +52,9 @@ public class Main {
                 break;
             case 11:
                 Quizz11.test();
+                break;
+            case 14:
+                Quiz14.forEachTest();
                 break;
             default:
                 System.out.println("Finished");
