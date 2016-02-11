@@ -33,7 +33,7 @@ public class Name
 
     static void testEquals()
     {
-        Set<Name> s = new HashSet<Name>();
+        Set<Name> s = new HashSet<>();
         s.add(new Name("Java"));
         System.out.println(new Name("Java").hashCode());
 

@@ -32,7 +32,7 @@ public class ClassC extends ClassB {
         //System.out.println(((ClassC)b).hello(22));
 
         ClassC o = new ClassC();
-        System.out.println(((Object) o));
+        System.out.println(o);
 
         for(ClassA a:msgs)
             System.out.print(a.hello());
