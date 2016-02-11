@@ -25,6 +25,9 @@ public class Main {
         System.out.println("20 - equals() strings");
         System.out.println("22 - bools");
         System.out.println("24 - post increment");
+        System.out.println("26 - Class in Class");
+        System.out.println("27 - Protected, private constructors");
+        System.out.println("28 - The polymorphic invocations");
 
         Scanner scanner = new Scanner(System.in);
         int choice = scanner.nextInt();
@@ -75,8 +78,18 @@ public class Main {
             case 24:
                 Quiz24.main(new String[0]);
                 break;
+            case 26:
+                Quiz26.main(new String[0]);
+                break;
+            case 27:
+                SubClass.main(new String[0]);
+                break;
+            case 28:
+                com.company.Quiz28.ClassC.main(new String[0]);
+                break;
             default:
                 System.out.println("Finished");
         }
     }
 }
+
