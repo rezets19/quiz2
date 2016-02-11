@@ -10,6 +10,12 @@ public class ClassC extends ClassB {
         return "C";
     }
 
+    //@Override
+    Integer hello(int i) {
+        //"Different signature";
+        return i;
+    }
+
     public static void main(String[] args) {
 
         ClassA[] msgs = new ClassA[3];
@@ -19,8 +25,14 @@ public class ClassC extends ClassB {
         ClassB b = new ClassB();
         msgs[2] = (ClassA) b;
 
-        ClassA aa = new ClassB();
-        System.out.println(aa.hello());
+        ClassC aa = new ClassC();
+        System.out.println(aa.hello(11));
+
+        //java.lang.ClassCastException
+        //System.out.println(((ClassC)b).hello(22));
+
+        ClassC o = new ClassC();
+        System.out.println(((Object) o));
 
         for(ClassA a:msgs)
             System.out.print(a.hello());

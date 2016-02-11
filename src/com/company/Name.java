@@ -5,7 +5,7 @@ import java.util.Objects;
 import java.util.Set;
 
 /**
- * Created by rezec on 09.02.2016..
+ *
  */
 public class Name
 {

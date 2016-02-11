@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * Created by rezec on 09.02.2016..
+ *
  */
 public class JavaOperator
 {

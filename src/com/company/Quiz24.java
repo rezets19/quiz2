@@ -1,7 +1,7 @@
 package com.company;
 
 /**
- * Created by rezets on 10.02.2016.
+ *
  */
 public class Quiz24 {
     private static int increment(int i){

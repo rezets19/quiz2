@@ -1,7 +1,7 @@
 package com.company;
 
 /**
- * Created by rezec on 10.02.2016..
+ *
  */
 public class Quizz11
 {
